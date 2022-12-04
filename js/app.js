@@ -4,7 +4,7 @@ const myHeading = document.querySelector("h1");
 /*selecting the button in index.html */
 let myButton = document.querySelector("button");
 
-myHeading.textContent = "Hello World !";
+myHeading.textContent = "Hello World!";
 
 // Adding an Image Changer
 const myImage = document.querySelector("img");
@@ -23,7 +23,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem("name", myName);
-    myHeading.textContent = `Mozilla is cool, ${myName}`;
+    myHeading.textContent = `Nice to meet you, ${myName}`;
   }
 }
 
